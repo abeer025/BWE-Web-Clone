@@ -1,0 +1,339 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row1 p {
+    font-family: sans-serif;
+}
+
+h2#h2 {
+    /* background-color: black;
+    color: white; */
+    font-size: 55px;
+    line-height: normal;
+}
+
+body {
+    background-color: #d8dbe4;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+li {
+    padding: 6px;
+}
+
+li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav-brand img {
+    flex: auto;
+}
+
+
+ul.navbar-nav {
+    align-content: stretch;
+    flex-direction: row;
+    text-wrap: nowrap;
+}
+
+.div3 {
+    display: flex;
+}
+
+a.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-basis: auto;
+}
+
+.logo {
+    display: flex;
+}
+
+li.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.parent {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        gap: 200px;
+    }
+}
+
+.div3-btn {
+    width: 54px;
+    line-height: 4px;
+}
+
+h6.col-h6 {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.buttons{
+    line-height: 1;
+    word-spacing: 2px;
+}
+.row1 {
+    text-align: left;
+    text-wrap: balance;
+    line-height: 2;
+}
+
+.col-img {
+    background-color: #b1adad36;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 43px;
+    width: 358px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 285px;
+    margin: 5px;
+}
+
+.img1{
+    background-image: url(Assets/images-removebg-preview.png)
+}
+.img2{
+    background-image: url(Assets/Apple-Watch-Series-6-Aluminum-44MM-Blue-Aluminum-1-removebg-preview.png);
+}
+.img3{
+    background-image: url(Assets/images-removebg-preview\ \(1\).png);
+}
+.img4{
+    background-image: url(Assets/IMG_2333-removebg-preview.png);
+    background-size: cover;
+}
+.img5{
+    background-image: url(Assets/images-removebg-preview.png);
+}
+/* .col-img img {
+    width: 300px;
+    height: 300px;
+} */
+
+.col1-para {
+    text-align: left;
+}
+
+.trans{
+    display: none;
+}
+.img4:hover .trans{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 43px;
+    transition: -5s;
+    background-color: #3a3a3abf;
+    height: 100%;
+    color: white;
+}
+
+.product-container{
+    background-color:rgb(8 6 6 / 88%) ;
+    color: white;
+}
+.img-border{
+    /* border-radius: 100px;
+    width: 300px; */
+    height: 157px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffffffb8;
+    padding: 63px;
+    margin: 10px;
+}
+
+.img-border1{
+    background-image: url(Assets/IMG_2333-removebg-preview.png);
+    background-position: top;
+}
+
+.img-border2{
+    background-image: url(Assets/IMG_2333-removebg-preview.png);
+    background-position: center;
+    margin-left: 62px;
+    padding: 107px;
+}
+
+.img-border3{
+    background-image: url(Assets/IMG_2333-removebg-preview.png);
+    background-position: bottom;
+    padding: 129px;
+    margin-right: 93px;
+}
+
+.brand-shape-containers {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.shape{
+    background-color:rgb(8 6 6 / 88%);
+    border-radius: 16px !important;
+    border: 100px solid;
+    margin: 10px;
+}
+
+.brand-shape1{
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQE0w3ofB5ZaH_CxHoXxQs4kkAKo6U4_LuOcgw8Q1lw4PyxGrjF);
+    border: 108px solid;
+    border-left-width: 56px;
+    margin-bottom: 58px;
+}
+
+.brand-shape2 {
+    background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ8t9cdXV8btTwE8qzOhF8ETdu_wh6kA-1u4_xo-yUrXtoovK4Q);
+    border: 79px solid;
+    border-top-width: 56px;
+    margin-top: 31px;
+}
+
+
+.brand-shape3 {
+    background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ8t9cdXV8btTwE8qzOhF8ETdu_wh6kA-1u4_xo-yUrXtoovK4Q);
+    border: 76px solid;
+    border-top-width: 87px;
+}
+
+.brand-shape4 {
+    background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ8t9cdXV8btTwE8qzOhF8ETdu_wh6kA-1u4_xo-yUrXtoovK4Q);
+    margin-top: 32px;
+    border: 108px solid;
+    border-left-width: 56px;
+    margin-bottom: 58px;
+}
+
+.brand-shape5 {
+    background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ8t9cdXV8btTwE8qzOhF8ETdu_wh6kA-1u4_xo-yUrXtoovK4Q);
+    border-width: 74px;
+    border-block-end-width: 340px;
+}
+
+.brand-shape6 {
+    background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ8t9cdXV8btTwE8qzOhF8ETdu_wh6kA-1u4_xo-yUrXtoovK4Q);
+    border: 76px solid;
+    border-top-width: 91px;
+}
+
+.brand-shape7 {
+    background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ8t9cdXV8btTwE8qzOhF8ETdu_wh6kA-1u4_xo-yUrXtoovK4Q);
+    margin-top: 32px;
+    border-width: 126px;
+    border: 108px solid;
+    border-left-width: 56px;
+}
+
+.brand-shape5:hover .bg-img {
+    border-width: 145px;
+    border-block-end-width: 267px;
+}
+
+.bg-img{
+    background-image: url(Assets/Apple-Watch-Series-6-Aluminum-44MM-Blue-Aluminum-1-removebg-preview.png);
+}
+
+@media (max-width: 600px) {
+    .shape-boxes {
+        flex-direction: column;
+        /* align-content: space-between; */
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.blog-design{
+    background-color: transparent;
+}
+
+.blog-design img{
+    mix-blend-mode: darken;
+}
+
+hr {
+    margin-top: auto;
+    width: 100px;
+    opacity: 1;
+    border-color: black;
+    border-width: medium;
+}
+
+.content-content {
+    background-color: white;
+}
+
+.container-content:hover .blackTransparent {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+}
+
+.blackTransparent:hover {
+    background-image: url('https://media.istockphoto.com/id/1372077120/photo/over-the-shoulder-view-of-young-asian-sports-woman-checks-her-fitness-statistics-on.jpg?s=612x612&w=0&k=20&c=BFek-9Ag5mPF2KU4_BAQV0iPDUetTaDrE4j3E5JaUcE=');
+    background-size: cover;
+}
+
+.social-links ul li{
+    list-style: none;
+    padding:18px;
+}
+.social-links ul{
+    list-style: none;
+    padding:18px;
+}
+
+/* footer .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer-content {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+} */
+.ft{
+    background-color: #212021;
+    color: white;
+}
+
+.logo-bw img {
+    mix-blend-mode: exclusion;
+    filter: invert(1);
+}
+
+.logo-bw{
+    background-color: transparent;
+}
